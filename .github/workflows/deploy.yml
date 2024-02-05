@@ -24,15 +24,13 @@ jobs:
         with:
             submodules: true
             lfs: true # Fetches LFS data
-      - uses: pnpm/action-setup@v2
-        with:
-          version: 8
       - name: Setup Pages
         uses: actions/configure-pages@v2
       - name: Bundle
         run: |
           npm ci 
           npm ci --prefix viewer
+          NODE_ENV=production
           npm run build
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
