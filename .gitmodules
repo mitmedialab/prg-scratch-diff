@@ -1,15 +1,5 @@
-[submodule "scratch-gui"]
-	path = scratch-gui
-	url = git@github.com:scratchfoundation/scratch-gui.git
-	shallow = true
-	branch = develop
 [submodule "scratch-vm"]
 	path = scratch-vm
 	url = git@github.com:scratchfoundation/scratch-vm.git
 	shallow = true
 	branch = develop
-[submodule "prg-extension-boilerplate"]
-	path = prg-extension-boilerplate
-	url = git@github.com:mitmedialab/prg-extension-boilerplate.git
-	shallow = true
-	branch = dev
