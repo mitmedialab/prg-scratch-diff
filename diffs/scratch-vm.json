@@ -1,0 +1,776 @@
+[
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/.circleci"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/.github/CONTRIBUTING.md",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/.github/CONTRIBUTING.md"
+  },
+  {
+    "type": "only",
+    "path1": "./scratch-vm/.github/workflows"
+  },
+  {
+    "type": "only",
+    "path1": "./scratch-vm/.nvmrc"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/.travis.yml"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/CHANGELOG.md",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/CHANGELOG.md"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/README.md",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/README.md"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/docs/extensions.md",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/docs/extensions.md"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/docs/typescript.md"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/package.json",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/package.json"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/.gitignore"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/blocks/scratch3_control.d.ts"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/blocks/scratch3_core_example.d.ts"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/blocks/scratch3_data.d.ts"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/blocks/scratch3_event.d.ts"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/blocks/scratch3_looks.d.ts"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/src/blocks/scratch3_looks.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/src/blocks/scratch3_looks.js"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/blocks/scratch3_motion.d.ts"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/blocks/scratch3_operators.d.ts"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/blocks/scratch3_procedures.d.ts"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/src/blocks/scratch3_procedures.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/src/blocks/scratch3_procedures.js"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/blocks/scratch3_sensing.d.ts"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/blocks/scratch3_sound.d.ts"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/src/blocks/scratch3_sound.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/src/blocks/scratch3_sound.js"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/dispatch/central-dispatch.d.ts"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/src/dispatch/central-dispatch.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/src/dispatch/central-dispatch.js"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/dispatch/shared-dispatch.d.ts"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/src/dispatch/shared-dispatch.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/src/dispatch/shared-dispatch.js"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/src/dispatch/worker-dispatch.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/src/dispatch/worker-dispatch.js"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/engine/adapter.d.ts"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/src/engine/adapter.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/src/engine/adapter.js"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/engine/block-utility.d.ts"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/src/engine/block-utility.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/src/engine/block-utility.js"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/engine/blocks-execute-cache.d.ts"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/src/engine/blocks-execute-cache.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/src/engine/blocks-execute-cache.js"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/engine/blocks-runtime-cache.d.ts"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/src/engine/blocks-runtime-cache.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/src/engine/blocks-runtime-cache.js"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/engine/blocks.d.ts"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/src/engine/blocks.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/src/engine/blocks.js"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/engine/comment.d.ts"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/engine/defaultBlockPackages.js"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/engine/execute.d.ts"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/src/engine/execute.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/src/engine/execute.js"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/engine/monitor-record.d.ts"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/engine/mutation-adapter.d.ts"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/engine/profiler.d.ts"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/engine/runtime.d.ts"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/src/engine/runtime.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/src/engine/runtime.js"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/engine/scratch-blocks-constants.d.ts"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/src/engine/scratch-blocks-constants.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/src/engine/scratch-blocks-constants.js"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/engine/sequencer.d.ts"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/src/engine/sequencer.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/src/engine/sequencer.js"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/engine/stackFrame.d.ts"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/engine/stackFrame.js"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/engine/stage-layering.d.ts"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/engine/target.d.ts"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/src/engine/target.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/src/engine/target.js"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/engine/thread.d.ts"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/src/engine/thread.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/src/engine/thread.js"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/engine/variable.d.ts"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/extension-support/argument-type.d.ts"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/extension-support/block-type.d.ts"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/extension-support/extension-manager.d.ts"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/src/extension-support/extension-manager.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/src/extension-support/extension-manager.js"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/src/extension-support/extension-worker.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/src/extension-support/extension-worker.js"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/extension-support/prg"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/extension-support/target-type.d.ts"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/extension-support/translation-manager.js"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/extensions/scratch3_arduinobot"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/extensions/scratch3_gizmo"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/src/extensions/scratch3_makeymakey/index.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/src/extensions/scratch3_makeymakey/index.js"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/src/extensions/scratch3_microbit/index.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/src/extensions/scratch3_microbit/index.js"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/extensions/scratch3_microbot"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/src/extensions/scratch3_pen/index.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/src/extensions/scratch3_pen/index.js"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/src/extensions/scratch3_text2speech/index.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/src/extensions/scratch3_text2speech/index.js"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/extensions/scratch3_text_toxicity"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/src/extensions/scratch3_translate/index.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/src/extensions/scratch3_translate/index.js"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/src/extensions/scratch3_video_sensing/index.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/src/extensions/scratch3_video_sensing/index.js"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/import/load-costume.d.ts"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/src/import/load-costume.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/src/import/load-costume.js"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/import/load-sound.d.ts"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/src/import/load-sound.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/src/import/load-sound.js"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/io/ble.d.ts"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/io/bt.d.ts"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/io/clock.d.ts"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/io/cloud.d.ts"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/io/keyboard.d.ts"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/io/mouse.d.ts"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/src/io/mouse.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/src/io/mouse.js"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/io/mouseWheel.d.ts"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/io/userData.d.ts"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/io/video.d.ts"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/src/io/video.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/src/io/video.js"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/src/playground/benchmark.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/src/playground/benchmark.js"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/src/serialization/deserialize-assets.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/src/serialization/deserialize-assets.js"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/src/serialization/sb2.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/src/serialization/sb2.js"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/src/serialization/sb2_specmap.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/src/serialization/sb2_specmap.js"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/src/serialization/sb3.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/src/serialization/sb3.js"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/sprites/rendered-target.d.ts"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/src/sprites/rendered-target.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/src/sprites/rendered-target.js"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/sprites/sprite.d.ts"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/util/base64-util.d.ts"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/util/cast.d.ts"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/src/util/cast.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/src/util/cast.js"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/util/clone.d.ts"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/util/color.d.ts"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/src/util/fetch-with-timeout.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/src/util/fetch-with-timeout.js"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/util/get-monitor-id.d.ts"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/util/jsonrpc.d.ts"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/src/util/jsonrpc.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/src/util/jsonrpc.js"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/util/log.d.ts"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/util/math-util.d.ts"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/src/util/math-util.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/src/util/math-util.js"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/util/maybe-format-message.d.ts"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/util/new-block-ids.d.ts"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/util/rateLimiter.d.ts"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/util/scratch-link-websocket.d.ts"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/util/string-util.d.ts"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/src/util/task-queue.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/src/util/task-queue.js"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/util/timer.d.ts"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/src/util/timer.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/src/util/timer.js"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/util/uid.d.ts"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/util/variable-util.d.ts"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/src/util/xml-escape.d.ts"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/src/virtual-machine.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/src/virtual-machine.js"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/test/fixtures/dispatch-test-worker-shim.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/test/fixtures/dispatch-test-worker-shim.js"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/test/fixtures/execute/order-changes-backwards-2-broadcast-and-wait-repeat-message.sb2",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/test/fixtures/execute/order-changes-backwards-2-broadcast-and-wait-repeat-message.sb2"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/test/fixtures/execute/order-changes-backwards-2-broadcast-and-wait-repeat-message.sb2.skip"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/test/fixtures/mock-timer.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/test/fixtures/mock-timer.js"
+  },
+  {
+    "type": "only",
+    "path1": "./prg-extension-boilerplate/packages/scratch-vm/test/helper"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/test/integration/block_to_workspace_comment_import.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/test/integration/block_to_workspace_comment_import.js"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/test/integration/broadcast_special_chars_sb2.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/test/integration/broadcast_special_chars_sb2.js"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/test/integration/broadcast_special_chars_sb3.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/test/integration/broadcast_special_chars_sb3.js"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/test/integration/cloud_variables_sb2.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/test/integration/cloud_variables_sb2.js"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/test/integration/cloud_variables_sb3.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/test/integration/cloud_variables_sb3.js"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/test/integration/comments_sb3.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/test/integration/comments_sb3.js"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/test/integration/execute.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/test/integration/execute.js"
+  },
+  {
+    "type": "only",
+    "path1": "./scratch-vm/test/integration/runId.js"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/test/integration/sb2_corrupted_png.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/test/integration/sb2_corrupted_png.js"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/test/integration/sb2_corrupted_svg.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/test/integration/sb2_corrupted_svg.js"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/test/integration/sb2_missing_png.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/test/integration/sb2_missing_png.js"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/test/integration/sb2_missing_svg.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/test/integration/sb2_missing_svg.js"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/test/integration/sb3_corrupted_png.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/test/integration/sb3_corrupted_png.js"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/test/integration/sb3_corrupted_sound.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/test/integration/sb3_corrupted_sound.js"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/test/integration/sb3_corrupted_svg.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/test/integration/sb3_corrupted_svg.js"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/test/integration/sb3_missing_png.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/test/integration/sb3_missing_png.js"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/test/integration/sb3_missing_sound.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/test/integration/sb3_missing_sound.js"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/test/integration/sb3_missing_svg.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/test/integration/sb3_missing_svg.js"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/test/integration/sprite2_corrupted_png.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/test/integration/sprite2_corrupted_png.js"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/test/integration/sprite2_corrupted_svg.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/test/integration/sprite2_corrupted_svg.js"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/test/integration/sprite2_missing_png.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/test/integration/sprite2_missing_png.js"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/test/integration/sprite2_missing_svg.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/test/integration/sprite2_missing_svg.js"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/test/integration/sprite3_corrupted_png.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/test/integration/sprite3_corrupted_png.js"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/test/integration/sprite3_corrupted_svg.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/test/integration/sprite3_corrupted_svg.js"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/test/integration/sprite3_missing_png.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/test/integration/sprite3_missing_png.js"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/test/integration/sprite3_missing_svg.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/test/integration/sprite3_missing_svg.js"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/test/integration/variable_special_chars_sb2.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/test/integration/variable_special_chars_sb2.js"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/test/integration/variable_special_chars_sb3.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/test/integration/variable_special_chars_sb3.js"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/test/unit/blocks_control.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/test/unit/blocks_control.js"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/test/unit/blocks_procedures.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/test/unit/blocks_procedures.js"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/test/unit/engine_runtime.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/test/unit/engine_runtime.js"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/test/unit/engine_target.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/test/unit/engine_target.js"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/test/unit/extension_conversion.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/test/unit/extension_conversion.js"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/test/unit/project_changed_state.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/test/unit/project_changed_state.js"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/test/unit/project_changed_state_blocks.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/test/unit/project_changed_state_blocks.js"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/test/unit/project_load_changed_state.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/test/unit/project_load_changed_state.js"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/test/unit/serialization_sb3.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/test/unit/serialization_sb3.js"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/test/unit/spec.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/test/unit/spec.js"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/test/unit/sprites_rendered-target.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/test/unit/sprites_rendered-target.js"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/test/unit/virtual-machine.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/test/unit/virtual-machine.js"
+  },
+  {
+    "type": "differ",
+    "path1": "./scratch-vm/webpack.config.js",
+    "path2": "./prg-extension-boilerplate/packages/scratch-vm/webpack.config.js"
+  }
+]
