@@ -1,0 +1,30 @@
+{
+  "name": "prg-scratch-diff",
+  "version": "1.0.0",
+  "description": "View a diff between scratch packages and prg-extension-boilerplate's version of those packages",
+  "main": "index.js",
+  "scripts": {
+    "make:diff:folder": "mkdir -p diffs",
+    "clear:diff:folder": "rm -rf diffs/*",
+    "diff": "diff -qr -x node_modules -x package-lock.json -x static -x .git",
+    "diff:gui": "npm run diff -- ./scratch-gui ./prg-extension-boilerplate/packages/scratch-gui | ts-node ./parser.ts > diffs/scratch-gui.json",
+    "diff:vm": "npm run diff -- ./scratch-vm ./prg-extension-boilerplate/packages/scratch-vm | ts-node ./parser.ts > diffs/scratch-vm.json",
+    "diff:all": "npm run make:diff:folder && npm run clear:diff:folder && npm run diff:gui && npm run diff:vm",
+    "process": "ts-node process.ts",
+    "build": "npm run diff:all && npm run process && npm run build --prefix ./viewer"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mitmedialab/prg-scratch-diff.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mitmedialab/prg-scratch-diff/issues"
+  },
+  "homepage": "https://github.com/mitmedialab/prg-scratch-diff#readme",
+  "devDependencies": {
+    "@types/node": "^20.11.16",
+    "ts-node": "^10.9.2"
+  }
+}

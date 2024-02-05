@@ -1,17 +1,18 @@
 <script lang="ts">
     import { editor } from "monaco-editor";
     import tsWorker from "monaco-editor/esm/vs/language/typescript/ts.worker?worker";
-    import { onMount } from "svelte";
+    import { onDestroy, onMount } from "svelte";
 
     export let originalURL: string;
     export let modifiedURL: string;
 
     let target: HTMLDivElement;
 
-    $: if (target) {
-    }
+    let originalModel: ReturnType<typeof editor.createModel>;
+    let modifiedModel: ReturnType<typeof editor.createModel>;
+    let diffEditor: ReturnType<typeof editor.createDiffEditor>;
 
-    onMount(async () => {
+    const load = async () => {
         const [original, modified] = await Promise.all([
             fetch(originalURL).then((res) => res.text()),
             fetch(modifiedURL).then((res) => res.text()),
@@ -19,10 +20,13 @@
         // @ts-ignore
         self.MonacoEnvironment = { getWorker: () => new tsWorker() };
 
-        const originalModel = editor.createModel(original, "typescript");
-        const modifiedModel = editor.createModel(modified, "typescript");
+        originalModel ??= editor.createModel(original, "javascript");
+        originalModel.setValue(original);
 
-        const diffEditor = editor.createDiffEditor(target, {
+        modifiedModel ??= editor.createModel(modified, "javascript");
+        modifiedModel.setValue(modified);
+
+        diffEditor ??= editor.createDiffEditor(target, {
             // You can optionally disable the resizing
             enableSplitViewResizing: true,
             // Render the diff inline
@@ -32,6 +36,12 @@
             original: originalModel,
             modified: modifiedModel,
         });
+    };
+
+    $: if (target && originalURL && modifiedURL) load();
+
+    onDestroy(() => {
+        diffEditor?.dispose();
     });
 </script>
 
@@ -39,6 +49,6 @@
 
 <style>
     div {
-        height: 500px;
+        height: 100%;
     }
 </style>
