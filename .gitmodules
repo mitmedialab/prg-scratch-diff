@@ -1,5 +1,0 @@
-[submodule "scratch-vm"]
-	path = scratch-vm
-	url = git@github.com:scratchfoundation/scratch-vm.git
-	shallow = true
-	branch = develop
